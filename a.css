@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box 0px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.va {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.box {
+    background: #E7E7E7;
+    width: 380px;
+    height: 380px;
+}
+.box:hover{
+background: blue;
+color: white;
+}
+
+
